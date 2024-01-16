@@ -1,5 +1,5 @@
-import React from 'react';
-import { Navbar as BootstrapNavbar, Container, Nav } from 'react-bootstrap';
+import React from "react";
+import { Navbar as BootstrapNavbar, Container, Nav } from "react-bootstrap";
 
 const Navbar: React.FC = () => {
   return (
@@ -16,7 +16,10 @@ const Navbar: React.FC = () => {
               <Nav.Link href="#services">My Services</Nav.Link>
               <Nav.Link href="#projects">Projects</Nav.Link>
               <Nav.Link href="#blogs">Blogs</Nav.Link>
-              <Nav.Link href="#contact" style={{ fontWeight: 'bold', color: 'red' }}>
+              <Nav.Link
+                href="#contact"
+                style={{ fontWeight: "bold", color: "red" }}
+              >
                 Contact Me
               </Nav.Link>
             </Nav>
