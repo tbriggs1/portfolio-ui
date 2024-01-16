@@ -37,10 +37,22 @@
   }
 }
 
-.projects {
-  padding-top: 40px;
+.project-box {
+  display: flex;
+  justify-content: center;
 }
 
-.projects h1 {
-  padding-bottom: 40px;
+.project-image img {
+  width: 500px;
+  height: 300px;
+}
+
+.project-text {
+  align-self: center;
+  padding-right: 50px;
+}
+
+.project-main {
+  padding-bottom: 150px;
+  padding-top: 50px;
 }
